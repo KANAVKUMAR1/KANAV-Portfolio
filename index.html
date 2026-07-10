@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KANAV | Web Developer & Software Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="loader" id="loader" role="status" aria-live="polite">
+        <div class="loader-track">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main Navigation">
+            <div class="logo-wrapper">
+                <a href="#home" class="logo">KANAV<span class="logo-dot">.</span></a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#work" class="nav-item">Featured Work</a></li>
+                <li><a href="#certificates" class="nav-item">Certificates</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-matrix-bg"></div>
+            <div class="hero-content">
+                <div class="hero-badge">Available for Projects</div>
+                <p class="hero-pre">Hi, I'm</p>
+                <h1 class="hero-title">KANAVKUMAR</h1>
+                <div class="typing-container">
+                    <span id="typing-text" class="typing-text"></span><span class="cursor" aria-hidden="true">|</span>
+                </div>
+                <p class="hero-desc">I build modern web applications and digital products with a focus on performance, responsive design, and user experience. Currently exploring AI-powered software while continuously improving my development skills through real-world projects.</p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn btn-primary">View Project</a>
+                    <a href="KANAVKUMAR.pdf" class="btn btn-secondary" download>
+                        <span>Download Resume</span>
+                        <svg class="btn-icon" width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 2V11M8 11L4.5 7.5M8 11L11.5 7.5M2 14H14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-offset">
+            <div class="section-header">
+                <span class="section-tagline">Background</span>
+                <h2 class="section-title">About <span>Me</span></h2>
+            </div>
+            <div class="about-card">
+                <p class="about-text">I am a self-taught Web Developer passionate about building modern web applications and software products. I enjoy solving real-world problems through technology while continuously learning new tools and improving my development skills.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section-offset">
+            <div class="section-header">
+                <span class="section-tagline">Capabilities</span>
+                <h2 class="section-title">My <span>Skills</span></h2>
+            </div>
+            <div class="skills-layout">
+                <div class="skills-card">
+                    <h3 class="category-title">Programming</h3>
+                    <div class="skills-tag-group">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3 class="category-title">Development Tools</h3>
+                    <div class="skills-tag-group">
+                        <span class="skill-tag">Visual Studio Code</span>
+                        <span class="skill-tag">Android Studio</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3 class="category-title">Deployment</h3>
+                    <div class="skills-tag-group">
+                        <span class="skill-tag">GitHub Pages</span>
+                        <span class="skill-tag">Vercel</span>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3 class="category-title">AI Tooling</h3>
+                    <div class="skills-tag-group">
+                        <span class="skill-tag">ChatGPT</span>
+                        <span class="skill-tag">Google Gemini</span>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3 class="category-title">Professional Assets</h3>
+                    <div class="skills-tag-group">
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Self Learning</span>
+                        <span class="skill-tag">Creativity</span>
+                        <span class="skill-tag">Attention to Detail</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work section-offset">
+            <div class="section-header">
+                <span class="section-tagline">Case Study</span>
+                <h2 class="section-title">Featured <span>Work</span></h2>
+            </div>
+            <div class="showcase-container">
+                <article class="project-showcase-card">
+                    <div class="project-meta-side">
+                        <div class="project-title-area">
+                            <span class="project-status-star">Portfolio Flagship</span>
+                            <h3 class="project-name">Base Shift</h3>
+                        </div>
+                        <p class="project-summary">Base Shift is a modern web-based utility platform that combines multiple conversion and productivity tools into a single responsive application.</p>
+                        <div class="project-pill-stack">
+                            <span class="tech-pill">HTML5</span>
+                            <span class="tech-pill">CSS3</span>
+                            <span class="tech-pill">JavaScript</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://base-shift-omega.vercel.app/" class="btn btn-action-primary" target="_blank" rel="noopener">Live Demo</a>
+                            <a href="https://github.com/KANAVKUMAR1/base-shift" class="btn btn-action-secondary" target="_blank" rel="noopener">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="project-details-side">
+                        <h4 class="details-heading">Platform Features</h4>
+                        <ul class="spec-list">
+                            <li>
+                                <svg class="spec-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Letter &harr; Binary Converter</span>
+                            </li>
+                            <li>
+                                <svg class="spec-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Binary &harr; Letter Converter</span>
+                            </li>
+                            <li>
+                                <svg class="spec-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Number Base Converter</span>
+                            </li>
+                            <li>
+                                <svg class="spec-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Responsive Design Architecture</span>
+                            </li>
+                            <li>
+                                <svg class="spec-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>Modern High-Performance UI</span>
+                            </li>
+                            <li class="spec-upcoming">
+                                <span class="spec-dash">&mdash;</span>
+                                <span>Image &rarr; Binary</span> 
+                                <span class="badge-upcoming">Pipeline Planned</span>
+                            </li>
+                            <li class="spec-upcoming">
+                                <span class="spec-dash">&mdash;</span>
+                                <span>Video &rarr; Binary</span> 
+                                <span class="badge-upcoming">Pipeline Planned</span>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="certificates" class="certificates section-offset">
+            <div class="section-header">
+                <span class="section-tagline">Verifications</span>
+                <h2 class="section-title"><span>Certificates</span></h2>
+            </div>
+            <div class="certifications-matrix">
+                <div class="credential-card">
+                    <div class="cred-icon-stub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    </div>
+                    <div class="cred-info">
+                        <h3 class="cred-title">Prompt Engineering for Everyone</h3>
+                        <p class="cred-authority">CognitiveClass.ai</p>
+                    </div>
+                </div>
+                <div class="credential-card">
+                    <div class="cred-icon-stub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    </div>
+                    <div class="cred-info">
+                        <h3 class="cred-title">Python (Basic)</h3>
+                        <p class="cred-authority">HackerRank</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-offset">
+            <div class="section-header">
+                <span class="section-tagline">Inquiries</span>
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+            </div>
+            <div class="contact-terminal">
+                <p class="terminal-msg">I'm always open to talking about new projects, creative ideas, or opportunities to learn.</p>
+                <div class="terminal-directory">
+                    <a href="mailto:KANAVKUMAR1577@gmail.com" class="terminal-node">
+                        <span class="node-key">email:</span>
+                        <span class="node-val">KANAVKUMAR1577@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/KANAVKUMAR1" target="_blank" rel="noopener" class="btn btn-primary node-btn">
+                        <span>Explore GitHub Profile</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="copyright">&copy; 2026 KANAVKUMAR. All Rights Reserved.</p>
+    </footer>
+
+    <button id="scrollTopBtn" title="Back to top surface" aria-label="Scroll to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
